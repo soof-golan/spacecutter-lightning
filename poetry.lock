@@ -931,26 +931,19 @@ testing = ["build[virtualenv]", "filelock (>=3.4.0)", "flake8 (<5)", "flake8-202
 testing-integration = ["build[virtualenv]", "filelock (>=3.4.0)", "jaraco.envs (>=2.2)", "jaraco.path (>=3.2.0)", "pytest", "pytest-enabler", "pytest-xdist", "tomli", "virtualenv (>=13.0.0)", "wheel"]
 
 [[package]]
-name = "spacecutter"
-version = "0.3.3"
+name = "spacecutter-torch"
+version = "0.4.0"
 description = "Ordinal regression models in PyTorch"
 category = "main"
 optional = false
-python-versions = "*"
-files = []
-develop = false
+python-versions = ">=3.8,<4.0"
+files = [
+    {file = "spacecutter_torch-0.4.0-py3-none-any.whl", hash = "sha256:5013912747c9bbccec7f0f0063d9b9137268cc5a3da8a7efb941a70326f19aca"},
+    {file = "spacecutter_torch-0.4.0.tar.gz", hash = "sha256:7954fd2843658e31da833ca159c36d4c1ae5baae369dcb720130338a4c464078"},
+]
 
 [package.dependencies]
-torch = ">=1.1.0"
-
-[package.extras]
-test = ["pytest", "pytest-cov"]
-
-[package.source]
-type = "git"
-url = "https://github.com/soof-golan/spacecutter.git"
-reference = "0.3.3"
-resolved_reference = "42690a16e3469e4965cf28caac9de20960a1d3e4"
+torch = ">=1.1.0,<2.0.0"
 
 [[package]]
 name = "tomli"
@@ -1190,4 +1183,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.8"
-content-hash = "1f19266daf8e5b6df30411a3526f52f928bab734d074eeb821fbc16fbc29727b"
+content-hash = "179ecbbb57f2b201c665f048bb8089b6d4f85db10223168c3783ba30e5f1eb44"

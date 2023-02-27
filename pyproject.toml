@@ -9,8 +9,9 @@ packages = [{include = "spacecutter_lightning"}]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-spacecutter = {git = "https://github.com/soof-golan/spacecutter.git", rev = "0.3.3"}
+
 pytorch-lightning = "^1.9.3"
+spacecutter-torch = "^0.4.0"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.2.1"
