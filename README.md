@@ -14,8 +14,7 @@ pip install spacecutter-lightning
 import torch
 import pytorch_lightning as pl
 from spacecutter_lightning import ClipCutpoints
-from spacecutter import OrdinalLogisticHead
-from spacecutter import CumulativeLinkLoss
+from spacecutter import OrdinalLogisticHead, CumulativeLinkLoss
 
 num_classes = 10
 num_features = 5
