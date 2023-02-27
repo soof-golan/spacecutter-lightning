@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "spacecutter-lightning"
-version = "0.2.0"
+version = "0.2.1"
 description = "PyTorch-Lightning callback for spacecutter"
 authors = ["Soof Golan <pypi@soofgolan.com>"]
 license = "MIT"
