@@ -1,11 +1,13 @@
 [tool.poetry]
 name = "spacecutter-lightning"
-version = "0.3.1"
+version = "0.3.2"
 description = "PyTorch-Lightning callback for spacecutter"
 authors = ["Soof Golan <pypi@soofgolan.com>"]
 license = "MIT"
 readme = "README.md"
 packages = [{include = "spacecutter_lightning"}]
+homepage = "https://github.com/soof-golan/spacecutter-lightning"
+repository = "https://github.com/soof-golan/spacecutter-lightning"
 
 [tool.poetry.dependencies]
 python = "^3.8"
@@ -20,7 +22,3 @@ black = "^23.1.0"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
-
-[project.urls]
-homepage = "https://github.com/soof-golan/spacecutter-lightning"
-repository = "https://github.com/soof-golan/spacecutter-lightning"
