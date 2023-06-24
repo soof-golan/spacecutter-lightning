@@ -12,8 +12,8 @@ repository = "https://github.com/soof-golan/spacecutter-lightning"
 [tool.poetry.dependencies]
 python = "^3.8"
 
-pytorch-lightning = "^1.9.3"
-spacecutter-torch = "^0.4.0"
+pytorch-lightning = "^2.0.1"
+spacecutter-torch = "^1.0.0"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.2.1"
